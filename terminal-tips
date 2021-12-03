@@ -1,4 +1,9 @@
 Visual studio code zsh: 
   1) list history range: 
        history 500 - to see last 500 commands
+       
+  2) write output of any command: 
+       npm list --depth 500 > npm-list.txt
+   
+  3) 
   
