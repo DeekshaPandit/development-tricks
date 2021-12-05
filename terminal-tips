@@ -7,4 +7,4 @@ Visual studio code zsh:
    
   3) if you have created a json file and later on zipped it and got removed the extensions .json.zip from it, then to see real json you have to put the extensions back on file and then unzip it.
   
-  
+  https://webmasters.stackexchange.com/questions/111724/10-megabyte-gzip-limit-in-aws-cloudfront
