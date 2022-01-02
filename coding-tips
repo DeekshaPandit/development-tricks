@@ -1,0 +1,8 @@
+how to save dates in database and transfer to client:
+
+ Because integers are easier to query, index, and more space efficient than strings, dates are usually stored as 64-bit integers such as a unix epoch with milliseconds.
+ Databases will convert any datetime into a UTC epoch to store internally.
+ Unlike most databases, there is no native datetime data type in JSON thus dates will have to be stored as JSON number or a JSON string. Either works, but standards should be followed meaning a date string should be formatted as one of the ISO 8601 formats. Date numbers should be stored as Unix Epoch time with the API contract specifying seconds or milliseconds.
+
+Pusher and strip apis use EPOCH time.
+
